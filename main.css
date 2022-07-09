@@ -1,0 +1,94 @@
+/* ==== GENERAL STYLES ==== */
+* {
+    box-sizing: border-box; /* include borders to size on all elements */
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+input, textarea {
+    border: 2.5px solid cornflowerblue;
+    padding: 5px;
+    border-radius: 8px;
+    outline: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    width: 27vw;
+}
+
+input:hover[type="text"] {
+    width: 45vw;
+    transition: all 1s ease-in-out;
+}
+
+textarea {
+    font-size: 15.64px;
+}
+
+body div {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#simple-description {
+    width: 40vw;
+    height: 18vh;
+}
+
+button {
+    padding: 6px;
+    font-size: medium;
+}
+
+#plus {
+    cursor: pointer;
+}
+
+/* TABLES */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* CLASSES */
+.big-margin {
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.big-margin textarea, .big-margin input {
+    margin-top: 15px;
+    width: 80%;
+    height: 10vh;
+}
+
+.result {
+    margin: 60px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 18px;
+}
+
+.result h1, .result h2 {
+    font-size: 26.9px;
+    margin: 0;
+}
+
+.result h2 {
+    margin-top: 40px;
+}
