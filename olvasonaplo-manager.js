@@ -57,9 +57,7 @@ function get() {
             result += i+1;
         }
         let abc = longDescriptions[i].value;
-        abc = abc.toString();
-        abc = encodeURI(abc);
-        abc = abc.replaceAll("%0A", "<br>");
+        abc = abc.replaceAll("\n", "<br>");
         result += ". fejezet: " + longDescriptionTitles[i].value + "</h2><p>" + abc + "</p>";
     }
     result += "<br><p>" + opinion + "</p>";
