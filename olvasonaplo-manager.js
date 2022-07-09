@@ -1,3 +1,5 @@
+/* Copyright (c) 2022 arminsarkozi (MIT LICENSE): https://raw.githubusercontent.com/arminsarkozi/hu-olvasonaplo/main/LICENSE */
+
 let counter = 1;
 $(document).ready(function() {
     $("#plus").click(function() {
@@ -55,9 +57,7 @@ function get() {
             result += i+1;
         }
         let abc = longDescriptions[i].value;
-        abc = abc.toString();
-        abc = encodeURI(abc);
-        abc = abc.replaceAll("%0A", "<br>");
+        abc = abc.replaceAll("\n", "<br>");
         result += ". fejezet: " + longDescriptionTitles[i].value + "</h2><p>" + abc + "</p>";
     }
     result += "<br><p>" + opinion + "</p>";
