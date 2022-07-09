@@ -1,3 +1,5 @@
+/* Copyright (c) 2022 arminsarkozi (MIT LICENSE): https://raw.githubusercontent.com/arminsarkozi/hu-olvasonaplo/main/LICENSE */
+
 let counter = 1;
 $(document).ready(function() {
     $("#plus").click(function() {
